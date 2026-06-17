@@ -27,7 +27,7 @@ Claude иногда останавливается и ждёт ввода (во�
 1. **Хуки** в `~/.claude/settings.json` на три события — каждый запускает один и тот же скрипт в фоне (`async`).
 2. **Скрипт** `~/.claude/play-notification.ps1` — проигрывает mp3 через `mciSendString` и пишет строку в лог `C:\claude_code_projects\notification-hook.log` (чтобы можно было убедиться, что хук сработал).
 
-Звук: `C:\claude_code_projects\error1-notification.mp3`
+Звук: `C:\claude_code_projects\pyk-toon-n-n.mp3`
 
 ---
 
@@ -52,7 +52,7 @@ Claude иногда останавливается и ждёт ввода (во�
 ### 2. Скрипт `~/.claude/play-notification.ps1`
 
 ```powershell
-$sound = 'C:\claude_code_projects\error1-notification.mp3'
+$sound = 'C:\claude_code_projects\pyk-toon-n-n.mp3'
 $log   = 'C:\claude_code_projects\notification-hook.log'
 
 try { Add-Content -Path $log -Value ("{0}  hook fired" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')) } catch {}
@@ -78,7 +78,7 @@ public class WinMM {
 
 ### 3. Положить звук
 
-Скопировать `error1-notification.mp3` в `C:\claude_code_projects\` (или поменять путь `$sound` в скрипте).
+Скопировать `pyk-toon-n-n.mp3` в `C:\claude_code_projects\` (или поменять путь `$sound` в скрипте).
 
 ---
 

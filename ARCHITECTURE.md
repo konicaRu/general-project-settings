@@ -33,3 +33,4 @@ general project settings/
 - Заведены контекстные файлы `MEMORY.md`, `ARCHITECTURE.md`, `README.md` (воркфлоу git save/load).
 - git init + remote `konicaRu/general-project-settings`; `.gitignore` исключает `.claude/`.
 - Первый push на GitHub (`git save`).
+- Звук уведомления сменён на `pyk-toon-n-n.mp3`; `settings/notification-sound.md` обновлена.

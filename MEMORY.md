@@ -18,3 +18,4 @@
 - Заведён git-воркфлоу `git save`/`git load`: добавлены `MEMORY.md`, `ARCHITECTURE.md`, `README.md`.
 - `.gitignore` исключает машинно-зависимый `.claude/`.
 - Выполнен `git save`: каталог запушен на GitHub (`konicaRu/general-project-settings`).
+- Звук уведомления сменён на `C:\claude_code_projects\pyk-toon-n-n.mp3` (на всех окнах); карточка обновлена.
