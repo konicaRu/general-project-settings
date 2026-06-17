@@ -32,3 +32,4 @@ general project settings/
 - Создан каталог настроек: `settings/README.md`, `settings/notification-sound.md`.
 - Заведены контекстные файлы `MEMORY.md`, `ARCHITECTURE.md`, `README.md` (воркфлоу git save/load).
 - git init + remote `konicaRu/general-project-settings`; `.gitignore` исключает `.claude/`.
+- Первый push на GitHub (`git save`).
