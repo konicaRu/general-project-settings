@@ -1,0 +1,3 @@
+# Локальные настройки Claude Code для этой папки (машинно-зависимые)
+.claude/
+.claude/settings.local.json
